@@ -1,0 +1,17 @@
+import React from 'react'
+const Car=()=>{
+    return(
+        <div style={{textAlign:'center',backgroundColor:'lightblue',width:"500px",height:"500px",marginLeft:"400px",marginRight:"400px"}}>
+            <h1 style={{paddingTop:"10px"}}>Car and Location Info</h1>
+            <div style={{textAlign:'center',backgroundColor:"white",borderRadius:"10px",marginLeft:"100px",marginRight:"100px",paddingTop:"10px"}}>
+            <p>Tesla Model S</p>
+            <img src="https://imgd-ct.aeplcdn.com/1056x660/n/xsoupsa_1476828.jpg?q=80" style={{width:"300px",height:"200px"}}></img>
+            </div>
+            <div style={{textAlign:'center',backgroundColor:"lightgray",borderRadius:"5px",marginLeft:"100px",marginRight:"100px",paddingBottom:"5px"}}>
+                <h1>Tesla</h1>
+                <p>Palo Alto</p>
+            </div>
+        </div>
+    );
+};
+export default Car;
